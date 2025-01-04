@@ -1,19 +1,19 @@
 # Travel_Journy
 The Ultimate Travel Checker is an interactive application that allows users to check direct and indirect travel routes between various cities using different modes of transportation (car, train, or plane). This project combines Prolog for knowledge representation and Python (Tkinter) for the graphical user interface.
 
-Features
+**Features**
 
-Check for direct travel routes between cities.
+- Check for direct travel routes between cities.
 
-Identify indirect travel paths via intermediate stops.
+- Identify indirect travel paths via intermediate stops.
 
-Supports three modes of transportation: car, train, and plane.
+- Supports three modes of transportation: car, train, and plane.
 
-User-friendly graphical interface built with Tkinter.
+- User-friendly graphical interface built with Tkinter.
 
-Clear, color-coded travel results displayed in a separate window.
+- Clear, color-coded travel results displayed in a separate window.
 
-Structure : 
+**Structure :** 
 ```ultimate-travel-checker/
 ├── README.md            # Documentation
 ├── calm.jpg             # Background image for the GUI
@@ -23,7 +23,7 @@ Structure :
 ```
 
 
-Future Improvements: 
+**Future Improvements:** 
 
 Expand the knowledge base to include more cities and routes.
 
@@ -33,7 +33,7 @@ Add error handling for invalid inputs.
 
 Deploy as a standalone executable using PyInstaller.
 
-** Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. **
+**Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.**
 
 
 GitHub: naso7y
