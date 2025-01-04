@@ -15,11 +15,10 @@ Clear, color-coded travel results displayed in a separate window.
 
 Structure : 
 ```ultimate-travel-checker/
-├── project.pl       # Prolog knowledge base
-├── gui.py    # Python script for the GUI
+├── README.md            # Documentation
 ├── calm.jpg             # Background image for the GUI
-└── README.md            # Documentation
-└── requirements.txt     # Requirements Python Libraries
+├── gui.py    # Python script for the GUI
+├── project.pl       # Prolog knowledge base
 └── report.pdf         # report containing everything in the project
 ```
 
@@ -34,7 +33,7 @@ Add error handling for invalid inputs.
 
 Deploy as a standalone executable using PyInstaller.
 
-Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
+** Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request. **
 
 
 GitHub: naso7y
