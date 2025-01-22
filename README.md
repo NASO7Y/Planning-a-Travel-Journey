@@ -1,5 +1,5 @@
 Planning a Travel Journey
----
+----
 **An interactive application that enables users to explore direct and indirect travel routes between various cities using car, train, or plane. This project integrates Prolog for knowledge representation and Python's Tkinter for the graphical user interface (GUI).**
 
 
