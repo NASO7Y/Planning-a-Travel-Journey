@@ -79,6 +79,14 @@ To set up the project locally, follow these steps:
    - Use the GUI to select cities and transportation modes.
    - View the results displayed in a new window.
 
+---
+## Acknowledgements
+
+- [**SWI-Prolog**](https://www.swi-prolog.org/): For providing a powerful platform for knowledge representation and reasoning.
+- [**Python**](https://www.python.org/): For its flexibility and wide range of libraries, making this project possible.
+- [**Tkinter**](https://docs.python.org/3/library/tkinter.html): For offering an intuitive and easy-to-use GUI framework in Python.
+
+---
 
 ## Contributing
 
