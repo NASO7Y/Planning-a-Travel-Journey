@@ -81,9 +81,10 @@ To set up the project locally, follow these steps:
 
 
 ## Contributing
+
 Contributions are welcome! To contribute:
 1. Fork the repository.
-2. Create a new branch (`feature/new-analysis`).
+2. Create a new branch.
 3. Commit your changes and submit a pull request.
 
 ## Contact
