@@ -1,43 +1,95 @@
+
 # Planning a Travel Journey
-The Ultimate Travel Checker is an interactive application that allows users to check direct and indirect travel routes between various cities using different modes of transportation (car, train, or plane). This project combines Prolog for knowledge representation and Python (Tkinter) for the graphical user interface.
 
-**Features**
+An interactive application that enables users to explore direct and indirect travel routes between various cities using car, train, or plane. This project integrates Prolog for knowledge representation and Python's Tkinter for the graphical user interface (GUI).
 
-- Check for direct travel routes between cities.
 
-- Identify indirect travel paths via intermediate stops.
+## Features
 
-- Supports three modes of transportation: car, train, and plane.
+- **Direct Route Checking**: Determine direct travel routes between cities.
+- **Indirect Route Identification**: Discover indirect travel paths through intermediate stops.
+- **Multiple Transportation Modes**: Choose between car, train, and plane options.
+- **User-Friendly Interface**: Interact through a GUI built with Tkinter.
+- **Visual Results**: View clear, color-coded travel results in a separate window.
 
-- User-friendly graphical interface built with Tkinter.
+## Project Structure
 
-- Clear, color-coded travel results displayed in a separate window.
-
-**Structure :** 
-```ultimate-travel-checker/
-├── README.md            # Documentation
+```plaintext
+Planning-a-Travel-Journey/
+├── README.md            # Project documentation
 ├── calm.jpg             # Background image for the GUI
-├── gui.py    # Python script for the GUI
-├── project.pl       # Prolog knowledge base
-└── report.pdf         # report containing everything in the project
+├── gui.py               # Python script for the GUI
+├── project.pl           # Prolog script for knowledge representation
+└── report.pdf           # Detailed project report
 ```
 
+## Installation
 
-**Future Improvements:** 
+To set up the project locally, follow these steps:
 
-Expand the knowledge base to include more cities and routes.
+1. **Clone the repository**:
 
-Implement advanced pathfinding algorithms for multi-step travel.
+   ```bash
+   git clone https://github.com/NASO7Y/Planning-a-Travel-Journey.git
+   ```
 
-Add error handling for invalid inputs.
+2. **Navigate to the project directory**:
 
-Deploy as a standalone executable using PyInstaller.
+   ```bash
+   cd Planning-a-Travel-Journey
+   ```
 
-**Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.**
+3. **Install the required dependencies**:
+
+   - Ensure you have [SWI-Prolog](https://www.swi-prolog.org/) installed for running Prolog scripts.
+   - Install Python dependencies:
+
+     ```bash
+     pip install tkinter
+     ```
+
+## Usage
+
+1. **Start the Prolog knowledge base**:
+
+   - Open a terminal and navigate to the project directory.
+   - Run SWI-Prolog:
+
+     ```bash
+     swipl
+     ```
+
+   - Load the Prolog script:
+
+     ```prolog
+     ?- [project].
+     ```
+
+2. **Launch the GUI**:
+
+   - In a separate terminal, navigate to the project directory.
+   - Run the Python GUI script:
+
+     ```bash
+     python gui.py
+     ```
+
+3. **Interact with the Application**:
+
+   - Use the GUI to select cities and transportation modes.
+   - View the results displayed in a new window.
 
 
-GitHub: naso7y
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature/new-analysis`).
+3. Commit your changes and submit a pull request.
+
+## Contact
+
+For questions or feedback, feel free to open an issue or reach out to [NASO7Y](https://github.com/NASO7Y).
 
 Email: ahmed.noshy2004@gmail.com
 
-LinkedIn: www.linkedin.com/in/nos7y/
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/nos7y/)
